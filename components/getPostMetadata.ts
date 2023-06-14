@@ -13,9 +13,12 @@ const getPostMetadata = (): PostMetadata[] => {
     const matterResult = matter(fileContents);
     return {
       title: matterResult.data.title,
+      thumbnail: matterResult.data.thumbnail,
       date: matterResult.data.date,
       subtitle: matterResult.data.subtitle,
       slug: fileName.replace(".md", ""),
+      author: matterResult.data.author,
+      category: matterResult.data.category,
     };
   });
 

@@ -1,6 +1,21 @@
+
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
+
+export const metadata = {
+  title:{
+    default: "DevZiaus's Blog",
+    template: "%s | DevZiaus's Blog"
+  }, 
+  description: "Welcome to DevZiaus's tech Blog",
+  author: "DevZiaus",
+  keywords:{
+    default: ['DevZiaus', 'Web Development', 'Web Design', 'programming', 'Technology',  'Linux', 'Tech', 'Blog', 'Tech Blog'],
+    template: ['%s','%s',]
+  }, 
+  robots: "index, follow",
+}
 
 export default function RootLayout({
   children,
@@ -9,35 +24,35 @@ export default function RootLayout({
 }) {
   const header = (
     <header>
-      <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
-        <Image
-          src="/logo.png"
-          width={40}
-          height={40}
-          className="mx-auto"
-          alt={"logo"}
-        />
-        <Link href="/">
-          <h1 className="text-2xl text-white font-bold mt-4">Jack's Blog</h1>
+      <div className="text-center bg-slate-600 p-8 my-6 rounded-md">
+      <Link href="/">
+          <Image
+            src="/logo.png"
+            width={60}
+            height={60}
+            className="mx-auto"
+            alt={"logo"}
+          />
         </Link>
-        <p className="text-slate-300">🤟 Welcome to my tech blog. 💻</p>
+        <Link href="/">
+          <h1 className="text-2xl text-[#0095da] font-bold mt-4">DevZiaus's Blog</h1>
+        </Link>
       </div>
     </header>
   );
 
   const footer = (
     <footer>
-      <div className="border-t border-slate-400 mt-12 py-6 text-center text-slate-400">
-        <h3>Designed by Pixegami</h3>
+      <div className="border-t border-slate-400 mt-12 py-6 text-center text-slate-600">
+        <h3>&copy; Copyright <a className="transition-all ease-linear delay-150 text-[#0095da] hover:text-[#e68324]" href="https://www.devziaus.xyz" target="_blank">DevZiaus</a> | All rights reserved.</h3>
       </div>
     </footer>
   );
 
   return (
     <html>
-      <head />
       <body>
-        <div className="mx-auto  max-w-2xl px-6">
+        <div className="mx-auto max-w-4xl px-6">
           {header}
           {children}
           {footer}

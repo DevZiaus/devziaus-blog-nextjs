@@ -1,4 +1,6 @@
 
+// import Head from "next/head";
+import Script from "next/script";
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
@@ -22,6 +24,23 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // const head = (
+  //   <Head>
+  //       <Script 
+  //         strategy="lazyOnload" 
+  //         src="https://www.googletagmanager.com/gtag/js?id=G-23MFPV6CVC" />
+  //         <Script 
+  //           strategy="lazyOnload" >
+  //             {`
+  //               window.dataLayer = window.dataLayer || [];
+  //               function gtag(){dataLayer.push(arguments);}
+  //               gtag('js', new Date());
+
+  //               gtag('config', 'G-23MFPV6CVC');
+  //               `}
+  //         </Script>
+  //     </Head>
+  // );
   const header = (
     <header>
       <div className="text-center bg-slate-600 p-8 my-6 rounded-md">
@@ -51,6 +70,21 @@ export default function RootLayout({
 
   return (
     <html>
+      <>
+        <Script 
+          strategy="lazyOnload" 
+          src={`https://www.googletagmanager.com/gtag/js?id=G-23MFPV6CVC`} />
+          <Script 
+            strategy="lazyOnload" >
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-23MFPV6CVC');
+                `}
+        </Script>
+      </>
       <body>
         <div className="mx-auto max-w-4xl px-6">
           {header}

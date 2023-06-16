@@ -1,4 +1,15 @@
 {
-  "cssImports": {},
-  "cssModules": {}
+  "cssImports": {
+    "/home/devziaus/projects/devziaus-blog-nextjs/app/layout.tsx": [
+      "/home/devziaus/projects/devziaus-blog-nextjs/styles/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/home/devziaus/projects/devziaus-blog-nextjs/app/page": [
+      "/home/devziaus/projects/devziaus-blog-nextjs/styles/globals.css"
+    ],
+    "/home/devziaus/projects/devziaus-blog-nextjs/app/posts/[slug]/page": [
+      "/home/devziaus/projects/devziaus-blog-nextjs/styles/globals.css"
+    ]
+  }
 }

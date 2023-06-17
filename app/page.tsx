@@ -1,6 +1,7 @@
 import getPostMetadata from "../components/getPostMetadata";
 import PostPreview from "../components/PostPreview";
 
+
 const HomePage = () => {
   const postMetadata = getPostMetadata();
   const postPreviews = postMetadata.map((post) => (
@@ -8,7 +9,10 @@ const HomePage = () => {
   ));
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>
+    <div className="min-h-[55vh]" >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>
+    </div>
+    
   );
 };
 

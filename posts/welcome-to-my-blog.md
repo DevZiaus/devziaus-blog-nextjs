@@ -15,7 +15,7 @@ Welcome, fellow techies, thank you for visiting my blog! I am excited to have yo
 
 ##About Me
 
-Before we dive deep, let me introduce myself. My name is Ziaus Samad, and I have a deep passion for programming especially in the field of web development  and all things tech. I have spent countless hours on web development, and deep into the world of Linux and technology. This blog is my way of sharing my knowledge and experiences and learning curves with like-minded individuals like you.
+Before we dive deep, let me introduce myself. My name is Ziaus Samad, I am a student of computer science and I have a deep passion for programming especially in the field of web development  and all things tech. I have spent countless hours on web development, and deep into the world of Linux and technology. This blog is my way of sharing my knowledge and experiences and learning curves with like-minded individuals like you.
 
 ##Topics Covered
 

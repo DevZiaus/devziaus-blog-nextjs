@@ -130,7 +130,7 @@ Front-end, back-end, and full-stack development are different types of web devel
 
 
 
-### Front-End Development Jobs
+### Front-End development jobs
 
 
 
@@ -159,7 +159,7 @@ Some of the common job titles for front-end developers are:
 
 
 
-### Back-End Development Jobs
+### Back-End development jobs
 
 
 
@@ -188,7 +188,7 @@ Some of the common job titles for back-end developers are:
 
 
 
-### Full-Stack Development Jobs
+### Full-Stack development jobs
 
 
 
@@ -221,18 +221,18 @@ If you want to gain the skill set for web development or web application develop
 
 There are many resources online where you can learn web development, such as books, blogs, videos, podcasts, courses, etc. Some of the very good courses that you can take are:
 
-### Free Resources:
+### Free resources:
 
 - <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>: This is a free and open-source platform that offers self-paced courses and challenges on web development. You can learn HTML(hypertext markup language), CSS(cascading style sheets), JavaScript, Bootstrap, jQuery, React, Node.js, MongoDB, etc. You can also earn certifications and join a community of learners and developers.
 - <a href="https://www.theodinproject.com" target="_blank">The Odin Project</a>: The odin project is another very good and free online platform where you can learn web development. You can learn HTML(hypertext markup language), CSS(cascading style sheets), JavaScript in the foundation course. Then you can choose either **Full Stack JavaScript**  where you will learn More on Javascript and back end development with NodeJS. Or you can choose **Full Stack Ruby on Rails** Where you will learn back end development with Ruby.
 - <a href="https://www.youtube.com" target="_blank">Youtube</a>: Youtube is a very good learning place if you want to learn web development. Many content creators and web developers make videos for those who want to lern web development. you can search specific topics and start learning by watching the videos.
 
-### Paid Resources:
+### Paid resources:
 
 There are many paid certificate courses out there. You can also join many on campus or online bootcamps to start learning web development and prepare for interview questions to get job as a web developer.
 
 - <a href="https://www.udemy.com/course/the-web-developer-bootcamp" target="_blank">The Web Developer Bootcamp by Colt Steele on Udemy</a>: This course covers everything from HTML(hypertext markup language), CSS(cascading style sheets), JavaScript, Node.js, MongoDB, Express, React, and more. It also includes projects and exercises that you can build and deploy on the web.
-- <a href="https://frontendmasters.com" target="_blank">Frontend Masters</a>Frontend Masters: This is a subscription-based platform that offers high-quality video courses on various topics related to frontend development, such as HTML, CSS, JavaScript, React, Vue, Angular, TypeScript, etc. You can also access live workshops and interactive exercises. 
+- <a href="https://frontendmasters.com" target="_blank">Frontend Masters</a>: This is a subscription-based platform that offers high-quality video courses on various topics related to frontend development, such as HTML, CSS, JavaScript, React, Vue, Angular, TypeScript, etc. You can also access live workshops and interactive exercises. 
 
 
 

@@ -2,14 +2,13 @@
 title: "Welcome to DevZiaus's Blog!"
 subtitle: "Welcome, to my tech blog! I am excited to have you here."
 date: "2023-06-11"
-thumbnail: "/images/welcome.png"
+thumbnail: "/images/welcome.webp"
 author: "DevZiaus"
 category: "Default"
 ---
 
-![images/welcome](/images/welcome.png)
+![images/welcome](/images/welcome.webp)
 
-##Introduction
 
 Welcome, fellow techies, thank you for visiting my blog! I am excited to have you here. I will be sharing my knowledge, insights, experiences and learnig curves on the topics of web development, web design, programming, Linux, and technology. Let's learn together!
 
@@ -31,7 +30,6 @@ I believe that a blog should be a platform for meaningful engagement and connect
 To share is to care! If you enjoy the information on this site, please consider telling your friends and family about it. Share the blog on social media, tell your friends and coworkers about it, or think about writing a guest post. TTogether, we can create a vibrant community of tech enthusiasts who support and inspire each other.
 
 
-##Conclusion
 
 Thank you for joining me on this exciting journey through the vast and ever-evolving world of programming, web development, Linux, and technology. I hope that this blog becomes a go-to resource for your tech-related questions, a source of inspiration for your projects, and a platform for engaging discussions.
 

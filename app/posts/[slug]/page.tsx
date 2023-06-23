@@ -32,7 +32,7 @@ const PostPage = (props: any) => {
       </div>
 
       <div className="flex align-center justify-center">
-        <article className="prose">
+        <article className="prose text-slate-800">
           <Markdown>{post.content}</Markdown>
         </article>
       </div>

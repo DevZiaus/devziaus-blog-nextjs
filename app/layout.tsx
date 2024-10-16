@@ -13,7 +13,7 @@ export const metadata = {
   description: "Welcome to DevZiaus's tech Blog",
   author: "DevZiaus",
   keywords:{
-    default: ['DevZiaus', 'Web Development', 'Web Design', 'programming', 'Technology',  'Linux', 'Tech', 'Blog', 'Tech Blog'],
+    default: ['DevZiaus', 'Web Development', 'Web Design', 'programming', 'Technology',  'Linux', 'Tech', 'Blog', 'Tech Blog', 'Education'],
     template: ['%s','%s',]
   }, 
   robots: "index, follow",
@@ -62,9 +62,11 @@ export default function RootLayout({
 
   const footer = (
     <footer>
-      <div className="border-t border-slate-400 mt-12 py-6 text-center text-slate-600">
+      <div className="flex justify-between items-center border-t border-slate-400 mt-12 py-6 text-center text-slate-600">
         <h3>&copy; Copyright <a className="transition-all ease-linear delay-150 text-[#0095da] hover:text-[#e68324]" href="https://www.devziaus.xyz" target="_blank">DevZiaus</a> | All rights reserved.</h3>
+        <a href="/privacy-policy">Privacy Policy</a>
       </div>
+      
     </footer>
   );
 

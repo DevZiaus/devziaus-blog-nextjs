@@ -1,13 +1,13 @@
 ---
 title: "What is Web Development?!"
-subtitle: "Web development is the process of creating websites and web applications that run on the Internet."
+meta: "Web development is the process of creating websites and web applications that run on the Internet."
 date: "2023-06-21"
 thumbnail: "/images/what-is-web-development.webp"
 author: "DevZiaus"
-category: "Web Development"
+category: "Web Development & Programming"
 ---
 
-![images/What is Web Development](/images/what-is-web-development.webp)
+![What is Web Development](/images/what-is-web-development.webp)
 
 Web development is the process of creating websites and web applications that run on the Internet. **Web development** involves both designing how a website looks and functions, as well as coding how it works behind the scenes. In this article, I will talk in detail about what is web development, web development vs web design, types of web development, front-end, back-end, and full-stack web development, and their respective jobs. Stay with me to know everything about <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank">web development</a>. 
 

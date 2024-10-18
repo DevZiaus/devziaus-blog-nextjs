@@ -3,7 +3,10 @@ import PostPreview from "../components/PostPreview";
 
 
 const HomePage = () => {
-  const postMetadata = getPostMetadata();
+  let postMetadata = getPostMetadata();
+  // Sort posts by date in descending order (newest first)
+  // @ts-ignore
+  postMetadata = postMetadata.sort((a, b) => new Date(b.date) - new Date(a.date));
   const postPreviews = postMetadata.map((post) => (
     <PostPreview key={post.slug} {...post} />
   ));

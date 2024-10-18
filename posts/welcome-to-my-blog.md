@@ -1,13 +1,13 @@
 ---
 title: "Welcome to DevZiaus's Blog!"
-subtitle: "Welcome, to my tech blog! I am excited to have you here."
+meta: "Welcome, to my tech blog! I am excited to have you here."
 date: "2023-06-11"
 thumbnail: "/images/welcome.webp"
 author: "DevZiaus"
 category: "Default"
 ---
 
-![images/welcome](/images/welcome.webp)
+![Welcome](/images/welcome.webp)
 
 
 Welcome, fellow techies, thank you for visiting my blog! I am excited to have you here. I will be sharing my knowledge, insights, experiences and learnig curves on the topics of web development, web design, programming, Linux, and technology. Let's learn together!

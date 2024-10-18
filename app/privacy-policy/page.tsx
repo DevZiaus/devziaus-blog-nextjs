@@ -12,9 +12,9 @@ export default function Component() {
 
     <div className="container mx-auto max-w-3xl py-12 px-4 sm:px-6 lg:px-8">
       <div className="space-y-6">
-        <h1 className="text-3xl font-bold tracking-tight text-foreground">Privacy Policy</h1>
+        <h1 className="text-3xl font-bold text-center tracking-tight text-foreground">Privacy Policy</h1>
         <p className="text-muted-foreground">
-          At our NextJS app, we are committed to protecting the privacy and security of our users. This privacy policy
+          At our Blog, we are committed to protecting the privacy and security of our users. This privacy policy
           outlines how we collect, use, and safeguard your personal information.
         </p>
         <div className="space-y-4">

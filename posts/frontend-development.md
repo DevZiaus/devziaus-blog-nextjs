@@ -161,9 +161,9 @@ There are many resources online where you can learn front-end development, such 
 
 ### Free resources:
 
-- <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>: This is a free and open-source platform that offers self-paced courses and challenges on web development. You can learn HTML(hypertext markup language), CSS(cascading style sheets), JavaScript, Bootstrap, jQuery, React, Node.js, MongoDB, etc. You can also earn certifications and join a community of learners and developers.
-- <a href="https://www.theodinproject.com" target="_blank">The Odin Project</a>: The odin project is another very good and free online platform where you can learn web development. You can learn HTML(hypertext markup language), CSS(cascading style sheets), JavaScript in the foundation course. Then you can choose either **Full Stack JavaScript**  where you will learn More on Javascript and back end development with NodeJS. Or you can choose **Full Stack Ruby on Rails** Where you will learn back end development with Ruby.
-- <a href="https://www.youtube.com" target="_blank">Youtube</a>: Youtube is a very good learning place if you want to learn web development. Many content creators and web developers make videos for those who want to lern web development. you can search specific topics and start learning by watching the videos.
+- <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>: This is a free and open-source platform that offers self-paced courses and challenges on web development. You can learn HTML(hypertext markup language), CSS(cascading style sheets), JavaScript, Bootstrap, jQuery, React etc. You can also earn certifications and join a community of learners and developers.
+- <a href="https://www.theodinproject.com" target="_blank">The Odin Project</a>: The odin project is another very good and free online platform where you can learn web development. You can learn HTML(hypertext markup language), CSS(cascading style sheets), JavaScript in the foundation course.
+- <a href="https://www.youtube.com" target="_blank">Youtube</a>: Youtube is a very good learning place if you want to learn front-end development. Many content creators and web developers make videos for those who want to lern web development. you can search specific topics and start learning by watching the videos.
 
 ### Paid resources:
 
@@ -172,14 +172,14 @@ There are many paid certificate courses out there. You can also join many on cam
 - <a href="https://www.udemy.com" target="_blank">Udemy</a>: Udemy is an online learning and teaching marketplace with over 213,000 courses and 57 million students. Learn programming, marketing, data science and more. There you can learn on your pace and your time.
 - <a href="https://frontendmasters.com" target="_blank">Frontend Masters</a>: This is a subscription-based platform that offers high-quality video courses on various topics related to frontend development, such as HTML, CSS, JavaScript, React, Vue, Angular, TypeScript, etc. You can also access live workshops and interactive exercises. 
 
-- <a href="https://www.udacity.com" target="_blank">Udacity</a>: Udacity is another good platform to learn **front-end development**. There you can Learn online and advance your career with courses in programming, data science, artificial intelligence, digital marketing, and more. Gain in-demand technical skills.
+- <a href="https://www.udacity.com" target="_blank">Udacity</a>: Udacity is another good platform to learn front-end development. There you can Learn online and advance your career with courses in programming, data science, artificial intelligence, digital marketing, and more. Gain in-demand technical skills.
 
 ## Conclusion
 
 Front-end development is an ever-evolving field that plays a critical role in shaping the digital landscape. Mastering the fundamentals of HTML, CSS, and JavaScript is essential, but staying up-to-date with the latest tools, frameworks, and best practices will ensure your success. By focusing on clean code, responsive design, performance optimization, and user experience, front-end developers can create powerful, engaging web applications that meet the demands of today’s digital world. Whether you're just starting or looking to enhance your skills, the opportunities in **front-end development** are endless, and the journey to mastering it is an exciting and rewarding one.
 
 
-##F.A.Q
+## F.A.Q
 
 #### Q1: What is **front-end development**?
 > Front-end development refers to the creation of the visual and interactive elements of a website or application. It involves writing code in HTML, CSS, and JavaScript to build user interfaces that are functional and engaging.

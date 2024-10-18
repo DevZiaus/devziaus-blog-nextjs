@@ -196,7 +196,7 @@ Front-end development is an ever-evolving field that plays a critical role in sh
 #### Q5: Why is responsive design important in front-end development?
 > Responsive design ensures that web applications function seamlessly across different devices, providing an optimal user experience whether on mobile phones, tablets, or desktops.
 
-Q6: What are Progressive Web Apps (PWAs)?
+#### Q6: What are Progressive Web Apps (PWAs)?
 > Progressive Web Apps are web applications that use modern web capabilities to deliver an app-like experience. They work offline, load quickly, and can be installed on the user's device.
 
-###<a href="https://devziaus.xyz" target="_blank">DevZiaus</a>
+### <a href="https://devziaus.xyz" target="_blank">DevZiaus</a>

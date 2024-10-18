@@ -2,8 +2,14 @@
 import Link from "next/link";
 import "../../styles/globals.css";
 
+export const metadata = {
+  title: "Privacy Policy | DevZiaus's Blog",
+  description: "Learn how DevZiaus's Blog collects, uses, and protects your personal information with our privacy policy."
+};
+
 export default function Component() {
   return (
+
     <div className="container mx-auto max-w-3xl py-12 px-4 sm:px-6 lg:px-8">
       <div className="space-y-6">
         <h1 className="text-3xl font-bold tracking-tight text-foreground">Privacy Policy</h1>

@@ -10,7 +10,7 @@ export const metadata = {
     default: "DevZiaus's Blog",
     template: "%s | DevZiaus's Blog"
   }, 
-  description: "Welcome to DevZiaus's tech Blog",
+  description: "Welcome to DevZiaus's Blog, your go-to resource for insights into web development, programming, Linux, and the latest in technology. Whether you're a beginner or an experienced developer, our blog offers tutorials, tips, and educational content to help you stay ahead in the tech world. Explore topics ranging from coding best practices to web design trends, and elevate your skills with our expert-driven articles.",
   author: "DevZiaus",
   keywords:{
     default: ['DevZiaus', 'Web Development', 'Web Design', 'programming', 'Technology',  'Linux', 'Tech', 'Blog', 'Tech Blog', 'Education'],

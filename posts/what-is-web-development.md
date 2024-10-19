@@ -1,5 +1,5 @@
 ---
-title: "What is Web Development?!"
+title: "What is Web Development"
 meta: "Web development is the process of creating websites and web applications that run on the Internet."
 date: "2023-06-21"
 thumbnail: "/images/what-is-web-development.webp"

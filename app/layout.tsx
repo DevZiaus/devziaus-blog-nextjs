@@ -43,7 +43,7 @@ export default function RootLayout({
   // );
   const header = (
     <header>
-      <div className="text-center bg-slate-600 p-8 my-6 rounded-md">
+      <div className="text-center bg-[#DBFCFF] p-8 my-6 rounded-md">
       <Link href="/">
           <Image
             src="/logo.png"
@@ -54,7 +54,7 @@ export default function RootLayout({
           />
         </Link>
         <Link href="/">
-          <h1 className="text-2xl text-[#0095da] font-bold mt-4">DevZiaus's Blog</h1>
+          <h1 className="text-2xl text-[#05233E] font-bold mt-4">DevZiaus's Blog</h1>
         </Link>
       </div>
     </header>
@@ -62,7 +62,7 @@ export default function RootLayout({
 
   const footer = (
     <footer>
-      <div className="flex justify-between items-center border-t border-slate-400 mt-12 py-6 text-center text-slate-600">
+      <div className="flex md:flex-row flex-col justify-between items-center border-t border-slate-400 mt-12 py-6 text-center text-slate-600">
         <h3>&copy; Copyright <a className="transition-all ease-linear delay-150 text-[#0095da] hover:text-[#e68324]" href="https://www.devziaus.xyz" target="_blank">DevZiaus</a> | All rights reserved.</h3>
         <a href="/privacy-policy">Privacy Policy</a>
       </div>
@@ -71,7 +71,7 @@ export default function RootLayout({
   );
 
   return (
-    <html>
+    <html lang='en'>
       <>
         <Script 
           strategy="lazyOnload" 

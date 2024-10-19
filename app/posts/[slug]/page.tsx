@@ -1,63 +1,103 @@
 import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
+import matter from "gray-matter";
+import getPostMetadata from "../../../components/getPostMetadata";
 import Authorbox from "../../../components/Authorbox";
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
 
-// Fetch content for the post
 const getPostContent = (slug: string) => {
-  const folder = path.join(process.cwd(), "posts/");
+  const folder = "posts/";
   const file = `${folder}${slug}.md`;
+
+  // Handle file not found scenario
+  if (!fs.existsSync(file)) {
+    return null;
+  }
+
   const content = fs.readFileSync(file, "utf8");
   const matterResult = matter(content);
   return matterResult;
 };
 
-// Dynamic Metadata using generateMetadata
-export async function generateMetadata({ params }: { params: { slug: string } }) {
+// Use `generateMetadata` to define dynamic metadata for each post
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const post = getPostContent(params.slug);
 
+  if (!post) {
+    return {
+      title: "Post Not Found | DevZiaus's Blog",
+      description: "The blog post you are looking for could not be found.",
+    };
+  }
+
+  const postTitle = post.data.title || "Untitled Post";
+  const postDescription = post.data.meta || postTitle;
+  const postImage = post.data.featuredImage || "/default-image.png";
+  const postUrl = `https://www.devziaus.xyz/posts/${params.slug}`;
+  const author = post.data.author || "DevZiaus"; // Fallback to "DevZiaus" if author is not provided
+
   return {
-    title: `${post.data.title} | DevZiaus's Blog`,
-    description: post.data.meta || post.data.title,
-    keywords: post.data.category,
-    author: post.data.author,
+    title: `${postTitle} | DevZiaus's Blog`,
+    description: postDescription,
+    openGraph: {
+      title: postTitle,
+      description: postDescription,
+      url: postUrl,
+      type: "article",
+      images: [
+        {
+          url: postImage,
+          width: 800,
+          height: 600,
+          alt: postTitle,
+        },
+      ],
+      authors: [author],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@devziaus's blog",
+      title: postTitle,
+      description: postDescription,
+      images: [postImage],
+      creator: author,
+    },
   };
 }
 
-const PostPage = ({ params }: { params: { slug: string } }) => {
+export const generateStaticParams = async () => {
+  const posts = getPostMetadata();
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+};
+
+export default function PostPage({ params }: { params: { slug: string } }) {
   const post = getPostContent(params.slug);
+
+  if (!post) {
+    notFound(); // If the post is not found, show a 404 page
+  }
+
+  const author = post?.data.author || "DevZiaus"; // Fallback for author
 
   return (
     <div className="">
       <div className="my-12 text-center">
-        <h1 className="text-2xl text-slate-600 ">{post.data.title}</h1>
+        <h1 className="text-2xl text-slate-600">{post?.data.title}</h1>
         <p className="text-slate-400 mt-2">
-          By: {post.data.author} | <span>Category: {post.data.category}</span> |{" "}
-          <span>Date: {post.data.date}</span>
+          By: {author} | <span>Category: {post?.data.category}</span> | <span>Date: {post?.data.date}</span>
         </p>
       </div>
 
       <div className="flex align-center justify-center">
         <article className="prose text-slate-800">
-          <Markdown>{post.content}</Markdown>
+          <Markdown>{post?.content}</Markdown>
         </article>
       </div>
+
       <Authorbox />
     </div>
   );
-};
-
-export default PostPage;
-
-// Generate static paths for posts
-export async function generateStaticParams() {
-  const postsDirectory = path.join(process.cwd(), "posts");
-  const filenames = fs.readdirSync(postsDirectory);
-
-  return filenames.map((filename) => {
-    return {
-      slug: filename.replace(".md", ""),
-    };
-  });
 }

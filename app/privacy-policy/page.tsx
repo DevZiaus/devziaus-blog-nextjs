@@ -49,7 +49,7 @@ export default function Component() {
         </div>
         <div className="text-center">
           <Link
-            href="https://devziaus.xyz/#contact"
+            href="https://devziaus.xyz"
             className="inline-flex items-center rounded-md bg-[#0095da] px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-[#e68324] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
             prefetch={false}
             target='_blank'

@@ -1,5 +1,5 @@
 ---
-title: "Front-End Development!"
+title: "Front-End Development"
 meta: "Unlock the power of front-end development with this comprehensive guide, covering HTML, CSS, JavaScript, and more, to create seamless user experience."
 date: "2024-10-17"
 thumbnail: "/images/frontend-development/Front-End-Development.webp"

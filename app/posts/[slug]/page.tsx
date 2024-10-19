@@ -6,6 +6,7 @@ import Authorbox from "../../../components/Authorbox";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import BackToTopButton from '../../../components/backToTop';
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -100,9 +101,11 @@ export default function PostPage({ params }: { params: { slug: string } }) {
       <Authorbox />
 
       <div className='flex items-center justify-center mt-10'>
+        <BackToTopButton />
         <Link
               href={`/`}
               className="px-4 py-2 bg-[#0095da] text-white rounded hover:bg-[#e68324] transition-colors duration-300"
+              aria-label='Back to Home Page'
             >
               Home Page
         </Link>

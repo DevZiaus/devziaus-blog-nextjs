@@ -63,7 +63,7 @@ export default function RootLayout({
   const footer = (
     <footer>
       <div className="flex md:flex-row flex-col justify-between items-center border-t border-slate-400 mt-12 py-6 text-center text-slate-600">
-        <h3>&copy; Copyright <a className="transition-all ease-linear delay-150 text-[#0095da] hover:text-[#e68324]" href="https://www.devziaus.xyz" target="_blank">DevZiaus</a> | All rights reserved.</h3>
+        <h3>&copy; Copyright <a className="transition-all ease-linear delay-150 text-[#0095da] hover:text-[#e68324]" href="https://www.devziaus.xyz" target="_blank" aria-label='Visit DevZiaus'>DevZiaus</a> | All rights reserved.</h3>
         <a href="/privacy-policy">Privacy Policy</a>
       </div>
       

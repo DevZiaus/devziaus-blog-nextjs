@@ -89,7 +89,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
       <div className="my-12 text-center">
         <h1 className="text-2xl text-slate-600">{post?.data.title}</h1>
         <p className="text-slate-400 mt-2">
-          By: {author} | <span>Category: {post?.data.category}</span> | <span>Date: {post?.data.date}</span>
+          Author: {author} | <span>Category: {post?.data.category}</span> | <span>Published: {post?.data.date}</span>
         </p>
       </div>
 

@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   const postTitle = post.data.title || "Untitled Post";
   const postDescription = post.data.meta || postTitle;
-  const postImage = post.data.featuredImage || "/default-image.png";
+  const postImage = post.data.thumbnail || "//images/logo.png";
   const postUrl = `https://www.devziaus.xyz/posts/${params.slug}`;
   const author = post.data.author || "DevZiaus"; // Fallback to "DevZiaus" if author is not provided
 

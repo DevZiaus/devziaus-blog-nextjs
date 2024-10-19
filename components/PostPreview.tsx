@@ -9,7 +9,7 @@ const PostPreview = (props: PostMetadata) => {
     bg-white"
     >
       <Link href={`/posts/${props.slug}`}>
-        <h2 className=" transition-all linear delay-300 text-[#05233E] hover:text-[#0095da] mb-4">{props.title}</h2>
+        <h2 className="text-xl lg:text-2xl transition-all linear delay-300 text-[#05233E] hover:text-[#0095da] mb-1">{props.title}</h2>
       </Link>
       <p className="text-sm text-slate-400">{props.date} | {props.category}</p>
 

@@ -2,8 +2,9 @@ import Image from "next/image";
 
 const Authorbox = () => {
     return (
-      <div className="flex align-center justify-center">
+      <div className="mt-10 flex align-center justify-center">
         <div className="p-5 border rounded text-center text-gray-500 max-w-sm">
+          <h2 className="text-xl font-bold">About the Author</h2>
           <Image
               src="/devziaus.png"
               width={80}

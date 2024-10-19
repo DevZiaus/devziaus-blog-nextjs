@@ -1,10 +1,11 @@
 import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
-import getPostMetadata from "../../../components/getPostMetadata";
+import { getPostMetadata } from "../../../lib/getPostMetadata";
 import Authorbox from "../../../components/Authorbox";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -96,8 +97,16 @@ export default function PostPage({ params }: { params: { slug: string } }) {
           <Markdown>{post?.content}</Markdown>
         </article>
       </div>
-
       <Authorbox />
+
+      <div className='flex items-center justify-center mt-10'>
+        <Link
+              href={`/`}
+              className="px-4 py-2 bg-[#0095da] text-white rounded hover:bg-[#e68324] transition-colors duration-300"
+            >
+              Home Page
+        </Link>
+      </div>
     </div>
   );
 }

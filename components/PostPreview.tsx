@@ -16,8 +16,8 @@ const PostPreview = (props: PostMetadata) => {
       <Link href={`/posts/${props.slug}`}>
       <Image
             src={props.thumbnail}
-            width={100}
-            height={100}
+            width={300}
+            height={300}
             className="mt-2"
             alt={"Post Thumbnail"}
           />

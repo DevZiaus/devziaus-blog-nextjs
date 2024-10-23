@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const author = post.data.author || "DevZiaus"; // Fallback to "DevZiaus" if author is not provided
 
   return {
-    title: `${postTitle} | DevZiaus's Blog`,
+    title: `${postTitle}`,
     description: postDescription,
     openGraph: {
       title: postTitle,

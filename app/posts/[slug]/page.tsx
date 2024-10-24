@@ -7,6 +7,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import BackToTopButton from '../../../components/backToTop';
+import { log } from 'console';
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -38,6 +39,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const postImage = post.data.thumbnail || "//images/logo.png";
   const postUrl = `https://www.devziaus.xyz/posts/${params.slug}`;
   const author = post.data.author || "DevZiaus"; // Fallback to "DevZiaus" if author is not provided
+  
+  // Make sure the tags field is an array of strings
+  const tagsArray = Array.isArray(post.data.tags) ? post.data.tags : [];
+  const keywords = tagsArray.length > 0 ? tagsArray.join(", ") : "DevZiaus, Web Development, Programming, Technology, Web Design, Linux, Tech, Blog, Tech Blog, Education";
 
   return {
     title: `${postTitle}`,
@@ -65,8 +70,18 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       images: [postImage],
       creator: author,
     },
+
+    //@ts-ignore
+    // Adding keywords meta tag explicitly
+    additionalMetaTags: [
+      {
+        name: "keywords",
+        content: keywords,  // Using joined string of tags
+      },
+    ],
   };
 }
+
 
 export const generateStaticParams = async () => {
   const posts = getPostMetadata();
@@ -87,7 +102,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
   return (
     <div className="">
       <div className="my-12 text-center">
-        <h1 className="text-2xl text-slate-600">{post?.data.title}</h1>
+        <h1 className="text-2xl text-slate-600 font-bold">{post?.data.title}</h1>
         <p className="text-slate-400 mt-2">
           Author: {author} | <span>Category: {post?.data.category}</span> | <span>Published: {post?.data.date}</span>
         </p>

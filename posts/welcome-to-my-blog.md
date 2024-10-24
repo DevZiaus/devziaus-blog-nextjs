@@ -16,16 +16,16 @@ Welcome, fellow techies, thank you for visiting my blog! I am excited to have yo
 
 Before we dive deep, let me introduce myself. My name is Ziaus Samad, I am a student of computer science and I have a deep passion for programming especially in the field of web development  and all things tech. I have spent countless hours on web development, and deep into the world of Linux and technology. This blog is my way of sharing my knowledge and experiences and learning curves with like-minded individuals like you.
 
-##Topics Covered
+## Topics Covered
 
 In this blog, you can expect to find a wide range of articles, tutorials, and discussions that revolve around programming, web development, Linux, and the latest technological advancements. Also I will be sharing my learning curves on those topics as I learn new things. There is something here for everyone, whether you want to learn a new programming language, delve into the realm of web development, or explore Linux or tech
 
 
-##Engage and Connect
+## Engage and Connect
 
 I believe that a blog should be a platform for meaningful engagement and connection. I invite you to actively participate in the discussions, sharing your thoughts, and asking questions. Your input and insights are invaluable, and I am eager to learn from your experiences and perspectives.
 
-##Spread the Word
+## Spread the Word
 
 To share is to care! If you enjoy the information on this site, please consider telling your friends and family about it. Share the blog on social media, tell your friends and coworkers about it, or think about writing a guest post. TTogether, we can create a vibrant community of tech enthusiasts who support and inspire each other.
 

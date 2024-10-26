@@ -3,7 +3,6 @@
 import Script from "next/script";
 import Image from "next/image";
 import Link from "next/link";
-import Head from 'next/head';
 import "../styles/globals.css";
 
 export const metadata = {
@@ -17,6 +16,7 @@ export const metadata = {
     template: ['%s','%s',]
   }, 
   robots: "index, follow",
+  
 }
 
 export default function RootLayout({
@@ -55,7 +55,7 @@ export default function RootLayout({
 
   return (
     <html lang='en'>
-      <Head>
+      <>
         <Script 
           strategy="lazyOnload" 
           src={`https://www.googletagmanager.com/gtag/js?id=G-23MFPV6CVC`} />
@@ -76,8 +76,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         >
         </script>
-        <meta name="google-adsense-account" content="ca-pub-1002426051951313" />
-      </Head>
+      </>
       <body>
         <div className="mx-auto max-w-4xl px-6">
           {header}

@@ -7,7 +7,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import BackToTopButton from '../../../components/backToTop';
-import { log } from 'console';
+import NativeBannerAd from '../../../components/NativeBannerAd';
+import BannerAd from '../../../components/BannerAd';
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -108,11 +109,16 @@ export default function PostPage({ params }: { params: { slug: string } }) {
         </p>
       </div>
 
+      <NativeBannerAd />
+
       <div className="flex align-center justify-center">
         <article className="prose text-slate-800">
           <Markdown>{post?.content}</Markdown>
         </article>
       </div>
+
+      <BannerAd />
+
       <Authorbox />
 
       <div className='flex items-center justify-center mt-10'>
@@ -125,6 +131,8 @@ export default function PostPage({ params }: { params: { slug: string } }) {
               Home Page
         </Link>
       </div>
+
+      <BannerAd />
     </div>
   );
 }

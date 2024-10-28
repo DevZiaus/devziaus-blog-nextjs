@@ -29,7 +29,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "next-sitemap.config.js"  ],
+, "next-sitemap.config.js", "components/NativeBannerAd.tsx"  ],
   "exclude": [
     "node_modules"
   ]

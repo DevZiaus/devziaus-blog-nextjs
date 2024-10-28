@@ -4,6 +4,8 @@ import Script from "next/script";
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
+import PopUnderAd from '../components/PopUnderAd';
+import SocialBarAd from '../components/SocialBarAd';
 
 export const metadata = {
   title:{
@@ -75,6 +77,9 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1002426051951313"
           crossOrigin="anonymous"
         >
+
+           {/*Ad Script */}
+        <PopUnderAd />
         </script>
       </>
       <body>
@@ -83,6 +88,8 @@ export default function RootLayout({
           {children}
           {footer}
         </div>
+        {/* Ad script */}
+        <SocialBarAd />
       </body>
     </html>
   );

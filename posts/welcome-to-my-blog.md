@@ -1,6 +1,6 @@
 ---
 title: "Welcome to DevZiaus's Blog"
-meta: "Welcome, to my tech blog! I am excited to have you here."
+meta: "Join me, DevZiaus, on a journey through web development, Linux, and technology. Get insights, learn from my experiences, and engage with the community on my blog."
 date: "2023-06-11"
 thumbnail: "/images/welcome.webp"
 author: "DevZiaus"

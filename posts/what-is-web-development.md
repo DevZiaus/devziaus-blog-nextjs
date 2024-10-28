@@ -1,10 +1,18 @@
 ---
 title: "What is Web Development"
-meta: "Web development is the process of creating websites and web applications that run on the Internet."
+meta: "Learn the basics of web development, including front-end, back-end, and full-stack development, and discover the skills and responsibilities required to become a successful web developer."
 date: "2023-06-21"
 thumbnail: "/images/what-is-web-development.webp"
 author: "DevZiaus"
 category: "Web Development & Programming"
+tags: ['Web Development',
+'Front End Development',
+'Back End Development',
+'Full Stack Development',
+'Web Design',
+'Development',
+'Prograaming',
+'Coding']
 ---
 
 ![What is Web Development](/images/what-is-web-development.webp)

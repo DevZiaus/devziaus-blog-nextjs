@@ -241,7 +241,9 @@ There are many paid certificate courses out there. You can also join many on cam
 Web development is the process of creating and maintaining websites and web applications. There are three main types of web development: front-end, back-end, and full-stack. Front-end developers work on the user interface and design of a website. Back-end developers work on the server-side logic and data management of a website. Full-stack developers can do both front-end and back-end development. Web developers have different jobs and responsibilities depending on their type of development. They need to have good communication skills, problem-solving abilities, and creativity. Web development is a dynamic and exciting field that offers many opportunities for learning and growth.
 
 
-##F.A.Q
+## F.A.Q
+
+![Frequently Asked Questions](/images/faq.webp)
 
 #### 1. What is a website?
 > A <a href="https://en.wikipedia.org/wiki/Website" target="_blank">website</a> is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment or social networking

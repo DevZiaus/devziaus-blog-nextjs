@@ -227,6 +227,8 @@ As the world continues to evolve, the importance of Linux will only grow, foster
 
 ## F.A.Q
 
+![Frequently Asked Questions](/images/faq.webp)
+
 #### Q1: What are the benefits of using Linux?
 > - Customizability: Linux offers unparalleled control over the operating system, allowing users to tailor their experience.
 - Cost-effective: Linux is free and open-source, eliminating the need for costly licensing fees.

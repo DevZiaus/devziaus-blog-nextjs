@@ -162,7 +162,7 @@ When choosing between **Bootstrap** and **Tailwind CSS**, there is no definitive
 
 ## F.A.Q
 
-![Frequently Asked Questions](/images/bootstrap-vs-tailwind/faq.webp)
+![Frequently Asked Questions](/images/faq.webp)
 
 #### Q1: What is the main difference between Bootstrap and Tailwind CSS?
 > The primary difference is in their styling approach. Bootstrap uses predefined component-based styles, while Tailwind CSS utilizes utility classes to style elements directly in HTML.

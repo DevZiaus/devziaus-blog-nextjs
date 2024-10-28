@@ -146,6 +146,8 @@ Choosing the right JavaScript framework for building responsive web applications
 
 ## F.A.Q
 
+![Frequently Asked Questions](/images/faq.webp)
+
 #### Q1: What is the difference between a JavaScript framework and a library?
 > A JavaScript framework provides a complete structure for building applications, offering built-in functionality and a set of conventions. A library, like jQuery, offers specific functionalities that can be integrated into a project without dictating its overall structure.
 

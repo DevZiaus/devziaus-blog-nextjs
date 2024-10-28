@@ -181,6 +181,8 @@ Front-end development is an ever-evolving field that plays a critical role in sh
 
 ## F.A.Q
 
+![Frequently Asked Questions](/images/faq.webp)
+
 #### Q1: What is **front-end development**?
 > Front-end development refers to the creation of the visual and interactive elements of a website or application. It involves writing code in HTML, CSS, and JavaScript to build user interfaces that are functional and engaging.
 

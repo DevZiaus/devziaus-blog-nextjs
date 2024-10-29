@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+/* Responsive ad container */
+#ad-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+}

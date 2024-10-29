@@ -9,11 +9,6 @@ const PopUnderAd = () => {
     script.type = 'text/javascript';
     script.async = true;
     document.head.appendChild(script);
-
-    return () => {
-      // Optional: Clean up the script when component unmounts
-      document.head.removeChild(script);
-    };
   }, []);
 
   return null; // No JSX needed as this component is for loading the script only

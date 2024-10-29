@@ -11,16 +11,11 @@ const NativeBannerAd = () => {
 
         const container = document.getElementById("container-e1ca6e6c4c82814f2f38f548c989b08f");
         container?.appendChild(script);
-
-        return () => {
-            // Clean up the script when the component unmounts
-            container?.removeChild(script);
-        };
     }, []);
 
     return (
-        <div className="flex justify-center items-center my-12">
-            <div id="container-e1ca6e6c4c82814f2f38f548c989b08f"></div>
+        <div className="flex justify-center items-center my-12 overflow-hidden">
+            <div id="container-e1ca6e6c4c82814f2f38f548c989b08f" className='w-full max-w-xs md:max-w-md lg:max-w-lg xl:max-w-xl overflow-hidden'></div>
         </div>
     );
 }

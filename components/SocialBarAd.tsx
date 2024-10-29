@@ -9,11 +9,6 @@ const ClientFooterAdScript = () => {
     script.type = 'text/javascript';
     script.async = true;
     document.body.appendChild(script);
-
-    return () => {
-      // Optional: Clean up the script when the component unmounts
-      document.body.removeChild(script);
-    };
   }, []);
 
   return null; // No visible output, only loading the script

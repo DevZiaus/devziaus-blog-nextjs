@@ -5,7 +5,7 @@ date: "2024-10-28"
 thumbnail: "/images/evolution-of-linux/the-evolution-of-linux.webp"
 author: "DevZiaus"
 category: "Linux"
-tags: [Linux Operating System',
+tags: ['Linux Operating System',
 'Web Development',
 'Linux',
 'Development',

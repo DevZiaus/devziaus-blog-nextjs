@@ -5,8 +5,7 @@ date: "2024-10-29"
 thumbnail: "/images/learning-web-dev/ultimate-guide-to-learning-web-development.webp"
 author: "DevZiaus"
 category: "Web Development & Programming"
-tags: ['Linux Operating System',
-'Web Development',
+tags: ['Web Development',
 'Development',
 'Developer',
 'Developers',
@@ -400,3 +399,4 @@ Learning web development is a challenging yet rewarding journey. By following th
 ### Q6: How can I make my portfolio stand out?
 > Focus on quality projects, write detailed descriptions, and deploy them for public access to demonstrate real-world capabilities.
 
+### <a href="https://devziaus.xyz" target="_blank">DevZiaus</a>

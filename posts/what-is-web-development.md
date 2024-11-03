@@ -271,4 +271,4 @@ Web development is the process of creating and maintaining websites and web appl
 #### 6. What are three types of web development?
 > There are three main types of <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank">web development</a>: front-end, back-end and full-stack. Front-end development focuses on the user interface and the look and feel of the website or application. Back-end development consists of the databases, logic, APIs, servers and everything else that powers the website behind the scenes. Full-stack development is a more holistic approach where the developers responsible for the site or app take care of the entire development stack.
 
-###<a href="https://devziaus.xyz" target="_blank">DevZiaus</a>
+### <a href="https://devziaus.xyz" target="_blank">DevZiaus</a>

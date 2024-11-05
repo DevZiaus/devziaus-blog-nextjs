@@ -13,3 +13,25 @@ body {
     overflow: hidden;
     margin: auto;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  pre {
+    white-space: pre-wrap; /* or 'pre-line' */
+    word-break: break-all;
+}
+
+@media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+}
+  

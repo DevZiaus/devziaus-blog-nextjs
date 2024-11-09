@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 const NativeBannerAd = () => {
     useEffect(() => {
         const script = document.createElement('script');
+        script.setAttribute('data-cfasync', 'false');
         script.async = true;
         script.setAttribute("data-cfasync", "false");
         script.src = "//pl24838472.profitablecpmrate.com/e1ca6e6c4c82814f2f38f548c989b08f/invoke.js";

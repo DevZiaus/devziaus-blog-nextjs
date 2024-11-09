@@ -5,14 +5,15 @@ import { useEffect } from 'react';
 const BannerAd = () => {
     useEffect(() => {
         const script = document.createElement('script');
-        script.src = "//www.highperformanceformat.com/28c7de5c619d5df00f95088c93e8dcb7/invoke.js";
+        script.setAttribute('data-cfasync', 'false');
+        script.src = "//www.highperformanceformat.com/11ac13d83afc1ebbe1cb7054c1d752e5/invoke.js";
         script.async = true;
 
         const atOptions = {
-            key: '28c7de5c619d5df00f95088c93e8dcb7',
+            key: '11ac13d83afc1ebbe1cb7054c1d752e5',
             format: 'iframe',
-            height: 90,
-            width: 728,
+            height: 300,
+            width: 160,
             params: {}
         };
 

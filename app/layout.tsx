@@ -57,38 +57,38 @@ export default function RootLayout({
 
   return (
     <html lang='en'>
-      <>
-        <Script 
-          strategy="lazyOnload" 
-          src={`https://www.googletagmanager.com/gtag/js?id=G-23MFPV6CVC`} />
-          <Script 
-            strategy="lazyOnload" >
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'G-23MFPV6CVC');
-                `}
+      <head>
+      <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-VZB8PZ7ZCY"
+        />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VZB8PZ7ZCY');
+          `}
         </Script>
+
          {/* Google AdSense Script */}
-         <script
+         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1002426051951313"
           crossOrigin="anonymous"
-        >
+        />
 
-           {/*Ad Script */}
-        <PopUnderAd />
-        </script>
-      </>
+        {/*Ad Script */}
+
+        <Script id="pop-under-ad" dangerouslySetInnerHTML={{ __html: PopUnderAd }} />
+      </head>
       <body>
         <div className="mx-auto max-w-4xl px-6">
           {header}
           {children}
           {footer}
         </div>
-        {/* Ad script */}
+        {/* Ad components */}
         <SocialBarAd />
       </body>
     </html>

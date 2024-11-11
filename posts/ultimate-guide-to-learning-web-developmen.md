@@ -20,13 +20,13 @@ tags: ['Web Development',
 ![The Ultimate Guide to Learning Web Development: A Step-by-Step Curriculum](/images/learning-web-dev/ultimate-guide-to-learning-web-development.webp)
 
 
-## **Introduction**
+## Introduction
 
 <a href='/posts/what-is-web-development'>Web development</a> is an essential skill in today's digital economy. With websites, apps, and platforms shaping how we interact, work, and communicate, the demand for skilled web developers is skyrocketing. If you're considering a career in web development or just starting, you’re in the right place. This comprehensive, step-by-step guide will walk you through the foundational skills, tools, and advanced techniques needed to become a proficient web developer.
 
 ---
 
-## **Table of Contents**
+## Table of Contents
 
 1. [Understanding the Basics of Web Development](#basics)
 2. [Setting Up Your Development Environment](#environment)

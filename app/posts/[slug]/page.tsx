@@ -9,6 +9,8 @@ import Link from "next/link";
 import BackToTopButton from '../../../components/backToTop';
 import NativeBannerAd from '../../../components/NativeBannerAd';
 import BannerAd from '../../../components/BannerAd';
+import CodeBlock from '../../../components/CodeBlock';
+
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -113,7 +115,17 @@ export default function PostPage({ params }: { params: { slug: string } }) {
 
       <div className="flex align-center justify-center">
         <article className="prose text-slate-800">
-          <Markdown>{post?.content}</Markdown>
+          <Markdown
+            // options={{
+            //   overrides: {
+            //     code: {
+            //       component: CodeBlock, // Use the CodeBlock component to render code blocks
+            //     },
+            //   },
+            // }}
+          >
+            {post?.content}
+          </Markdown>
         </article>
       </div>
 

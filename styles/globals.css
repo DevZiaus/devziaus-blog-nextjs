@@ -29,6 +29,15 @@ img {
     word-break: break-all;
 }
 
+article a {
+    color: #0095da !important;
+    transition: all 0.3s ease-in-out;
+}
+
+article a:hover {
+    color: #e68324;
+}
+
 @media (max-width: 768px) {
     .container {
       grid-template-columns: 1fr;
